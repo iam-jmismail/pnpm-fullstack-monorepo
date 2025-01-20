@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-payment-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "pnpm --filter frontend dev ",
+    "start:backend": "pnpm --filter backend dev "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
