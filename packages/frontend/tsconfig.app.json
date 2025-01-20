@@ -9,9 +9,12 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": false,
+    "composite": true,
     "jsx": "react-jsx",
 
     /* Linting */
@@ -19,8 +22,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
-    "composite": true
+    "noUncheckedSideEffectImports": true
   },
   "include": ["src"]
 }

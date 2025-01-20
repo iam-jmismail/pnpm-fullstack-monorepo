@@ -9,12 +9,11 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "noEmit": false,
+    "noEmit": true,
     "baseUrl": ".",
     "paths": {
       "@shared/*": ["packages/shared/src"]
     },
-    "composite": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
