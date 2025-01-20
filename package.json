@@ -1,13 +1,12 @@
 {
-  "name": "ecommerce-payment-app",
+  "name": "fullstack-monorepo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An e-commerce payment MonoRepo",
   "scripts": {
     "start:frontend": "pnpm --filter frontend dev ",
     "start:backend": "pnpm --filter backend dev "
   },
   "keywords": [],
-  "author": "",
+  "author": "Mohamed Ismail",
   "license": "ISC"
 }
