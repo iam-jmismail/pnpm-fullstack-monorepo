@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Container } from "react-bootstrap";
 import {
   debounceTime,
   distinctUntilChanged,
@@ -82,16 +83,16 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <Container className="my-4">
       {searchInput}
 
       <div>
         <input type="text" name="search-input" id="search-input" />
-        <button id="rxjs-button"> Click me </button>
+        <button id="rxjs-button"> Search </button>
       </div>
 
       <div> Price : {price}</div>
-    </div>
+    </Container>
   );
 };
 
